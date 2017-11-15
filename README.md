@@ -38,6 +38,8 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 ![alt text][image1]
 
+The dataset can be downloaded [here](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip)
+
 ### Design and Test a Model Architecture
 
 As a first step, the images are converted to grayscale because it is obtained more accuracy by processing one channel images than three channel -RGB- images. 
@@ -76,6 +78,8 @@ My final model consisted of the following layers:
 To train the model, two convolutional layers and two hidden layers are created. Different layer, kernel and stride sizes are used to get the best accuracy. According to studies in the literature, ReLu activation function gives better accuracy than other functions. Therefore, the layers are activated by ReLu function. Dropout is utilized as the regularization method due to successful results
 
 The data is split three categories which are train, validation and test sets. Batch_size and epochs variable are defined to specify how many iterations will be executed. In each epoch, whole data is shuffled and train data is split into batches and trained separately and after each epoch accuracy value is obtained by using validation set. After getting satisfying results, the algorithm is executed on test set in order to see how it works on an unseen data. By this iterative method, data is trained multiple times in different orders. This method is preferred because it is more accurate than single training method.  
+
+Dataset can be downloaded at 
 
 My final model results were:
 * training set accuracy of 0.997
