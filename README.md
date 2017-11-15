@@ -13,6 +13,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/number.png "Visualization"
+[image9]: ./examples/normal.png "Normal"
 [image2]: ./examples/grayscaled.png "Grayscaling"
 [image3]: ./examples/normalized.png "Normalizing"
 [image4]: ./examples/1.JPG "Traffic Sign 1"
@@ -42,6 +43,8 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 As a first step, the images are converted to grayscale because it is obtained more accuracy by processing one channel images than three channel -RGB- images. 
 
 Here is an example of a traffic sign image before and after grayscaling.
+
+![alt text][image9]
 
 ![alt text][image2]
 
@@ -196,7 +199,7 @@ As can be seen in the table below, the algorithm gives more certainty for correc
 
 <table>
   <tr>
-    <td colspan="2" align="center"><b>Image-4</b></td>
+    <td colspan="2" align="center"><b>Image-5</b></td>
   </tr>
   <tr>
     <td>Probability</td>
