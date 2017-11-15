@@ -115,7 +115,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 <table>
   <tr>
-    <td colspan="2">Image-1</td>
+    <td colspan="2" align="center"><b>Image-1</b></td>
   </tr>
   <tr>
     <td>Probability</td>
@@ -132,5 +132,93 @@ For the first image, the model is relatively sure that this is a stop sign (prob
   <tr>
     <td>0.0</td>
     <td>No passing</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2" align="center"><b>Image-2</b></td>
+  </tr>
+  <tr>
+    <td>Probability</td>
+    <td>Prediction</td>
+  </tr>
+  <tr>
+    <td>0.806</td>
+    <td>Speed limit (20 km/h)</td>
+  </tr>
+  <tr>
+    <td>0.13</td>
+    <td>Speed limit (100 km/h)</td>
+  </tr>
+  <tr>
+    <td>0.0423</td>
+    <td>Speed limit (120 km/h)</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2" align="center"><b>Image-3</b></td>
+  </tr>
+  <tr>
+    <td>Probability</td>
+    <td>Prediction</td>
+  </tr>
+  <tr>
+    <td>1.0</td>
+    <td>Right-of-away at the next intersection</td>
+  </tr>
+  <tr>
+    <td>0.0</td>
+    <td>Pedestrians</td>
+  </tr>
+  <tr>
+    <td>0.0</td>
+    <td>Beware of ice/snow</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2" align="center"><b>Image-4</b></td>
+  </tr>
+  <tr>
+    <td>Probability</td>
+    <td>Prediction</td>
+  </tr>
+  <tr>
+    <td>1.0</td>
+    <td>Keep right</td>
+  </tr>
+  <tr>
+    <td>0.0</td>
+    <td>Yield</td>
+  </tr>
+  <tr>
+    <td>0.0</td>
+    <td>No entry</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="2" align="center"><b>Image-4</b></td>
+  </tr>
+  <tr>
+    <td>Probability</td>
+    <td>Prediction</td>
+  </tr>
+  <tr>
+    <td>1.0</td>
+    <td>No entry</td>
+  </tr>
+  <tr>
+    <td>0.0</td>
+    <td>Turn left ahead</td>
+  </tr>
+  <tr>
+    <td>0.0</td>
+    <td>Stop</td>
   </tr>
 </table>
