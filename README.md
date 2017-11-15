@@ -1,4 +1,4 @@
-# **Traffic Sign Classification Project
+# Traffic Sign Classification Project
 ---
 
 The goals / steps of this project are the following:
@@ -12,14 +12,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/number.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image1]: ./examples/number.png "Visualization"
+[image2]: ./examples/grayscaled.png "Grayscaling"
+[image3]: ./examples/normalized.png "Normalizing"
+[image4]: ./examples/1.jpg "Traffic Sign 1"
+[image5]: ./examples/2.jpg "Traffic Sign 2"
+[image6]: ./examples/3.jpg "Traffic Sign 3"
+[image7]: ./examples/4.jpg "Traffic Sign 4"
+[image8]: ./examples/5.jpg "Traffic Sign 5"
 
 ---
 
@@ -114,30 +114,30 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 |Image-1 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| | 1.0        			| Yield  									| 
-| | 0.0     				| No vehicles							|
-| | 0.0				      | No passing							|
+|- | 1.0        			| Yield  									| 
+|- | 0.0     				| No vehicles							|
+|- | 0.0				      | No passing							|
 
 |Image-2 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| | 0.806        			| Speed limit (20 km/h)  									| 
-| | 0.13     				| Speed limit (100 km/h)							|
-| | 0.0423				      | Speed limit (120 km/h)							|
+|- | 0.806        			| Speed limit (20 km/h)  									| 
+|- | 0.13     				| Speed limit (100 km/h)							|
+|- | 0.0423				      | Speed limit (120 km/h)							|
 
 |Image-3 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| | 1.0        			| Right-of-away at the next intersection		| 
-| | 0.0     				| Pedestrians						|
-| | 0.0				      | Beware of ice/snow							|
+|- | 1.0        			| Right-of-away at the next intersection		| 
+|- | 0.0     				| Pedestrians						|
+|- | 0.0				      | Beware of ice/snow							|
 
 |Image-4 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| | 1.0        			| Keep right  									| 
-| | 0.0     				| Yield						|
-| | 0.0				      | No entry							|
+|- | 1.0        			| Keep right  									| 
+|- | 0.0     				| Yield						|
+|- | 0.0				      | No entry							|
 
 |Image-5 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| | 1.0        			| No entry 									| 
-| | 0.0     				| Turn left ahead							|
-| | 0.0				      | Stop							|
+|- | 1.0        			| No entry 									| 
+|- | 0.0     				| Turn left ahead							|
+|- | 0.0				      | Stop							|
