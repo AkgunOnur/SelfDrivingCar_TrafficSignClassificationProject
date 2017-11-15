@@ -113,31 +113,31 @@ The code for making predictions on my final model is located in the 11th cell of
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
 |Image-1 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|:---------------:|:----------------:|:----------------------:| 
 |- | 1.0        			| Yield  									| 
 |- | 0.0     				| No vehicles							|
 |- | 0.0				      | No passing							|
 
 |Image-2 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|:---------------:|:----------------:|:----------------------:|  
 |- | 0.806        			| Speed limit (20 km/h)  									| 
 |- | 0.13     				| Speed limit (100 km/h)							|
 |- | 0.0423				      | Speed limit (120 km/h)							|
 
 |Image-3 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|:---------------:|:----------------:|:----------------------:| 
 |- | 1.0        			| Right-of-away at the next intersection		| 
 |- | 0.0     				| Pedestrians						|
 |- | 0.0				      | Beware of ice/snow							|
 
 |Image-4 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|:---------------:|:----------------:|:----------------------:|  
 |- | 1.0        			| Keep right  									| 
 |- | 0.0     				| Yield						|
 |- | 0.0				      | No entry							|
 
 |Image-5 | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
+|:---------------:|:----------------:|:----------------------:| 
 |- | 1.0        			| No entry 									| 
 |- | 0.0     				| Turn left ahead							|
 |- | 0.0				      | Stop							|
