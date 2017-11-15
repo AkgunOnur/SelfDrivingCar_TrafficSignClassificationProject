@@ -15,8 +15,8 @@ The goals / steps of this project are the following:
 [image1]: ./examples/number.png "Visualization"
 [image2]: ./examples/grayscaled.png "Grayscaling"
 [image3]: ./examples/normalized.png "Normalizing"
-[image4]: ./examples/1.jpg "Traffic Sign 1"
-[image5]: ./examples/2.jpg "Traffic Sign 2"
+[image4]: ./examples/1.JPG "Traffic Sign 1"
+[image5]: ./examples/2.JPG "Traffic Sign 2"
 [image6]: ./examples/3.jpg "Traffic Sign 3"
 [image7]: ./examples/4.jpg "Traffic Sign 4"
 [image8]: ./examples/5.jpg "Traffic Sign 5"
@@ -112,32 +112,25 @@ The code for making predictions on my final model is located in the 11th cell of
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
-|Image-1 | Probability         	|     Prediction	        					| 
-|:---------------:|:----------------:|:----------------------:| 
-|- | 1.0        			| Yield  									| 
-|- | 0.0     				| No vehicles							|
-|- | 0.0				      | No passing							|
 
-|Image-2 | Probability         	|     Prediction	        					| 
-|:---------------:|:----------------:|:----------------------:|  
-|- | 0.806        			| Speed limit (20 km/h)  									| 
-|- | 0.13     				| Speed limit (100 km/h)							|
-|- | 0.0423				      | Speed limit (120 km/h)							|
-
-|Image-3 | Probability         	|     Prediction	        					| 
-|:---------------:|:----------------:|:----------------------:| 
-|- | 1.0        			| Right-of-away at the next intersection		| 
-|- | 0.0     				| Pedestrians						|
-|- | 0.0				      | Beware of ice/snow							|
-
-|Image-4 | Probability         	|     Prediction	        					| 
-|:---------------:|:----------------:|:----------------------:|  
-|- | 1.0        			| Keep right  									| 
-|- | 0.0     				| Yield						|
-|- | 0.0				      | No entry							|
-
-|Image-5 | Probability         	|     Prediction	        					| 
-|:---------------:|:----------------:|:----------------------:| 
-|- | 1.0        			| No entry 									| 
-|- | 0.0     				| Turn left ahead							|
-|- | 0.0				      | Stop							|
+<table>
+  <tr>
+    <td colspan="2">Image-1</td>
+  </tr>
+  <tr>
+    <td>Probability</td>
+    <td>Prediction</td>
+  </tr>
+  <tr>
+    <td>1.0</td>
+    <td>Yield</td>
+  </tr>
+  <tr>
+    <td>0.0</td>
+    <td>No vehicles	</td>
+  </tr>
+  <tr>
+    <td>0.0</td>
+    <td>No passing</td>
+  </tr>
+</table>
